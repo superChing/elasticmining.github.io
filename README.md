@@ -97,6 +97,7 @@ First of all, you have to setup the jekyll environment
 3. `gem install jekyll`
 4. `gem install jekyll-paginate`
 5. `gem install pygments.rb`
+6. `gem install redcarpet`
 
 Okay, if you still no clue what's going go.
 Please refer to [here](https://www.getpocket.com/a/read/1120352505)
