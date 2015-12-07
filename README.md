@@ -93,7 +93,7 @@ Please use these IDs for the author info in post header
 First of all, you have to setup the jekyll environment
 
 1. Install rvm
-2. Install ruby 2.1
+2. Install ruby 2.2
 3. `gem install jekyll`
 4. `gem install jekyll-paginate`
 5. `gem install pygments.rb`
