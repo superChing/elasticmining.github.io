@@ -97,6 +97,7 @@ Please use these IDs for the author info in post header
 ## How to Test This Jekyll Site Locally.
 -----
 First of all, you have to setup the jekyll environment
+[Here](http://networm.me/jekyll-note.html) is a step-by-step go-through.
 
 1. Install rvm
 2. Install ruby 2.2
@@ -106,7 +107,7 @@ First of all, you have to setup the jekyll environment
 6. `gem install redcarpet`
 
 Okay, if you still no clue what's going go.
-Please refer to [here](https://www.getpocket.com/a/read/1120352505)
+Please refer to [here](http://networm.me/jekyll-note.html)
 
 Now, you already have set the jekyll environment,
 You can start a jekyll server to view the change you made.
