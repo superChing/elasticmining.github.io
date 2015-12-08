@@ -7,7 +7,7 @@ This is the repository of [ElasticMining](http://www.elasticmining.com) website.
 ----
 If you want to make some conbribution, you can
 
-1. Fix the typos, missed translations, or suggest in the issues
+1. fix the typos, missed translations, or suggest in the issues
 2. Fix the HTML or CSS errors
 3. Write articles
 
