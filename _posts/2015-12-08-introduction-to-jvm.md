@@ -15,7 +15,7 @@ author: larrylo
 
 # An Introduction to JVM
 
-Java is the most famous language in 2015. [1] It’s not only an open source programming language (i.e. OpenJDK, http://openjdk.java.net (http://openjdk.java.net/)) but also the cross-platform  characteristic.
+Java is the most famous language in 2015. [1] It’s not only an open source programming language (i.e. OpenJDK, http://openjdk.java.net) but also the cross-platform  characteristic.
 
 How Java can be used on multiple platforms like Windows, Linux or MacOS? The most important component to achieve this goal is JVM (Java Virtual Machine). A JVM is an abstract computing machine that enables a computer to run a Java program. There are three notions of the JVM: specification, implementation, and instance. [2] 
 
