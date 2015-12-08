@@ -12,6 +12,11 @@ If you want to make some conbribution, you can
 3. Write articles
 
 
+## Basic Git Tutorial
+----
+If you are not familar to Git, please read [this basic git tutorial](http://www.slideshare.net/pokaichang72/git-42427674).
+I highly recommend everyone should read this, because its fun and infomative.
+
 ## Standard Workflow
 ----
 1. fork this repository
@@ -29,6 +34,7 @@ Every time before you make any change, repeat step 6, 7 and 8 to sync the master
 
 ## Add New Posts
 -----
+Make sure you still in the branch `develop`
 
 1. Copy the template `0000-00-00-template.md` from `_drafts` to `_posts` and rename the file name as your will
 2. Edit the post description in the header
