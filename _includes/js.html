@@ -17,8 +17,11 @@
     <script src="{{ "/js/agency.js" | prepend: site.baseurl }}"></script>
 
     <!-- MathJax plugin -->
-    <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
-</script>
+    <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+    <!-- highlight.js -->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.0.0/highlight.min.js"></script>
+    <script> hljs.initHighlightingOnLoad(); </script>
 
     <!-- MathJax config -->
     {% include mathjax_config.html %}
