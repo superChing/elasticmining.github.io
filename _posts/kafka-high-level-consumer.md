@@ -2,7 +2,7 @@
 w to use Kafka’s High Level Consumer in Scala
 ##Why using the high level consumer
  * From time to time, while reading messages from multiple threads, we want to know how those data are consumed rather than the order of data.
- * High Level Consumer stores last offset from a specific partition in ZooKeeper, it would be re-consumed the msg from the last offset.
+ * High Level Consumer stores last offset from a specific partition in ZooKeeper, so when restarting, it would be re-consumed the msg from the last offset.
  
 here are some very specific rules from official documents:
 
