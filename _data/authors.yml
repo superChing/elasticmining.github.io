@@ -29,8 +29,8 @@ larrylo:
       url: https://tw.linkedin.com/in/larry-lo-32364388 
     - title: github
       url: http://github.com/LarryLo
- #   - title: twitter
- #     url: #
+    - title: twitter
+      url: http:/twitter.com/LarryLo
  
 ericali:
   name: Erica Li
@@ -77,8 +77,8 @@ markyang:
       url: https://tw.linkedin.com/in/mark-yang-5a49b874  
     - title: github
       url: https://github.com/youngce
-    #- title: twitter
-     # url: #
+    - title: twitter
+      url: https://twitter.com/youngce0918
 
 
 chuyuhsu:
@@ -94,8 +94,8 @@ chuyuhsu:
       url: https://tw.linkedin.com/in/chuyuhsu  
     - title: github
       url: https://github.com/ChuyuHsu
-  #  - title: twitter
-   #   url: #
+    - title: twitter
+      url: https://twitter.com/ChuyuHsu
 
 
 ryanchao:
@@ -111,8 +111,8 @@ ryanchao:
       url: https://tw.linkedin.com/in/ryan-chao-bb502168  
     - title: github
       url: https://github.com/ryanchao2012
-  #  - title: twitter
-   #   url: #
+    - title: twitter
+      url: https://twitter.com/ryanchao2012
 
 
 
