@@ -1,4 +1,6 @@
 $(function() {
+    //././mail/contact_me.php
+    var CONTACT_BACKEND = "http://formspree.io/support@elasticmining.com"
 
     $("input,textarea").jqBootstrapValidation({
         preventSubmit: true,
@@ -18,8 +20,10 @@ $(function() {
                 firstName = name.split(' ').slice(0, -1).join(' ');
             }
             $.ajax({
-                url: "././mail/contact_me.php",
+                url: CONTACT_BACKEND,
                 type: "POST",
+                method: "POST",
+                dataType: "json",
                 data: {
                     name: name,
                     phone: phone,
