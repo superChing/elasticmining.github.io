@@ -3,7 +3,7 @@ layout: post
 title: Syntax-highlighting
 modified:
 categories: test
-abstract: "just for testing"
+description: "just for testing"
 comments: true
 tags: []
 image:
@@ -32,19 +32,19 @@ Content Cell  | Content Cell
 
 Code blocks can be taken a step further by adding syntax highlighting. In your fenced block, add an optional language identifier and we'll run it through syntax highlighting. For example, to syntax highlight Ruby code:
 
-~~~ruby
+```ruby
 require 'redcarpet'
 markdown = Redcarpet.new("Hello World!")
 puts markdown.to_html
-~~~
+```
 
-~~~python
+```python
 import re
 
 text = "ElasticMining"
 pattern = re.compile(ru"\w+")
 pattern.match(text)
-~~~
+```
 
 
 
