@@ -12,8 +12,10 @@ image:
 date: 2015-12-07T23:11:41+08:00
 author: mark yang
 ---
-#How to use Kafka’s High Level Consumer in Scala
-##Why using the high level consumer
+# How to use Kafka’s High Level Consumer in Scala
+
+## Why using the high level consumer
+
  * From time to time, while reading messages from multiple threads, we want to know how those data are consumed rather than the order of data.
  * High Level Consumer stores last offset from a specific partition in ZooKeeper, so when restarting, the messages would be re-consumed from the last offset.
  
@@ -25,7 +27,8 @@ Here are some very specific rules from official documents:
 * adding more processes/threads will cause Kafka to re-balance, possibly changing the assignment of a Partition to a Thread.
 
 
-##Step 1:  Setting your configurations
+## Step 1:  Setting your configurations
+
 ```scala
 val props = new java.util.Properties();
 props.put("zookeeper.connect", a_zookeeper);
@@ -36,20 +39,21 @@ props.put("auto.commit.interval.ms", "1000");
 val config= new kafka.consumer.ConsumerConfig(props);
 ```
 
-
  - zookeeper.connect: Zookeeper host string
  - group.id: 	A string that uniquely identifies the group of consumer processes to which this consumer belongs. By setting the same group id multiple processes indicate that they are all part of the same consumer group.
  - zookeeper.session.timeout.ms: ZooKeeper session timeout. If the consumer fails to heartbeat to ZooKeeper for this period of time it is considered dead and a rebalance will occur.
  - zookeeper.sync.time.ms: How far a ZK follower can be behind a ZK leader
  - auto.commit.interval.ms: The frequency in milliseconds that the consumer offsets are auto-committed to Kafka if *enable.auto.commit* is set to true.
 
-##Step 2: Creating consumer client 
+## Step 2: Creating consumer client 
+
 ```scala
 val consumer=kafka.consumer.Consumer.create(config)
 ```
 
 
-##Step 3: Creating the thread pool
+## Step 3: Creating the thread pool
+
 ```scala
 val topic="yourTopic"
 val numThread=1
@@ -57,6 +61,7 @@ val topicCounts=Map(topic->numThread)
 val consumerMap=consumer.createMessageStreams(topicCounts)
 ```
 ## Step4: Print the messages
+
 ```scala
 val consumerIterator=consumerMap.get(topic).get.head.iterator()  
 
@@ -69,7 +74,7 @@ msgs.foreach(msg=>println(new String(msg)))
 ```
 We hope above gives you a certain understanding of how to implement Kafka’s High Level Consumer in Scala.
 Good luck!!
-##References
+## References
 * [Consumer Group Example](https://cwiki.apache.org/confluence/display/KAFKA/Consumer+Group+Example)
 
 * [Kafka.org](http://kafka.apache.org/)
