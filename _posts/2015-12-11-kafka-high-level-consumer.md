@@ -74,11 +74,8 @@ msgs.foreach(msg=>println(new String(msg)))
 ```
 We hope above gives you a certain understanding of how to implement Kafka’s High Level Consumer in Scala.
 Good luck!!
+
 ## References
 * [Consumer Group Example](https://cwiki.apache.org/confluence/display/KAFKA/Consumer+Group+Example)
 
 * [Kafka.org](http://kafka.apache.org/)
-
-
-
-
