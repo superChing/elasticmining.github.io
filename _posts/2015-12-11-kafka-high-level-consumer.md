@@ -10,7 +10,7 @@ image:
   credit: 
   creditlink: 
 date: 2015-12-07T23:11:41+08:00
-author: mark yang
+author: markyang
 ---
 # How to use Kafka’s High Level Consumer in Scala
 
