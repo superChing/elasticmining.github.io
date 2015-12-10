@@ -62,7 +62,7 @@ A post header is comprised as follows
 layout: post
 title: Genesis
 categories: template
-abstract: "This is for testing"
+description: "This is for testing"
 comments: true
 tags: [love, coding, machine learning]
 image:
@@ -85,6 +85,7 @@ The hightlighted header option needs you to customize
 6. **image**: the featured image shown in the head. You can leave it blank
 7. **date**: date
 8. **author**: the author id you are assigned, which is listed as follows
+9. **description**: the abstract of this post
 
 ### Author IDs
 Please use these IDs for the author info in post header
