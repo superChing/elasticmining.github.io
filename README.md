@@ -24,12 +24,11 @@ I highly recommend everyone should read this, because its fun and infomative.
 3. `cd /path/to/repo` and `git branch develop` to create a new branch for further modification
 4. `git checkout develop` to switch the branch you just created
 5. `git remote add upstream https://github.com/ElasticMining/elasticmining.github.io.git` to add this repository as a remote upstream ropository
-6. `git remote update` to update the remote repo list
-7. `git fetch upstream` to update from the upstream repo
-8. `git merge upstream/master` to merge remote updates to the local repo 
-9. The steps above are for initialize your local git repo
+6. `git fetch upstream` to update from the upstream repo
+7. `git merge upstream/master` to merge remote updates to the local repo 
+8. The steps above are for initialize your local git repo
 
-Every time before you make any change, repeat step 6, 7 and 8 to sync the master with newest version on remote repo, and then make branch to modify.
+Every time before you make any change, repeat step 6 and  7 to sync the master with newest version on remote repo, and then make branch to modify.
 
 
 ## Add New Posts
@@ -42,8 +41,15 @@ Make sure you still in the branch `develop`
 4. `git add .` to stage the change you made
 5. `git commit -m "leave some comment"` to coomit the change
 6. `git pull upstream master` to sync this repo
-7. `git push origin master` to update your forked repo
+7. `git push origin develop:master` to update the local develop branch to your forked repo
 8. Okay, now you can issue a pull request
+
+
+### When You Need Do Modification After Issuing a Pull Request
+-----
+
+Just do all modification you need, and sync to your forked repo.
+Pull Request will update all the changes you made automatically.
 
 
 ## Post Header
