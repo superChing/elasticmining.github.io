@@ -1,10 +1,23 @@
 ---
-w to use Kafka’s High Level Consumer in Scala
+layout: post
+title: How to use Kafka’s High Level Consumer in Scala
+categories: kafka
+abstract: "For a Kafka's beginner, it's not easy to source online examples that demonstrate how to use High Level Consumer API with Scala. So, here you are, below is a short introduction of this."
+comments: true
+tags: []
+image:
+  feature:
+  credit: 
+  creditlink: 
+date: 2015-12-07T23:11:41+08:00
+author: mark yang
+---
+#How to use Kafka’s High Level Consumer in Scala
 ##Why using the high level consumer
  * From time to time, while reading messages from multiple threads, we want to know how those data are consumed rather than the order of data.
- * High Level Consumer stores last offset from a specific partition in ZooKeeper, so when restarting, it would be re-consumed the msg from the last offset.
+ * High Level Consumer stores last offset from a specific partition in ZooKeeper, so when restarting, the messages would be re-consumed from the last offset.
  
-here are some very specific rules from official documents:
+Here are some very specific rules from official documents:
 
 * if you provide more threads than there are partitions on the topic, some threads will never see a message
 * if you have more partitions than you have threads, some threads will receive data from multiple partitions
@@ -54,25 +67,12 @@ val msgs=consumerIterator.map(_.message())
 //you can using the new String(bytes)
 msgs.foreach(msg=>println(new String(msg)))
 ```
-we hope above gives you a certain understanding of how to implement Kafka’s High Level Consumer in Scala.
+We hope above gives you a certain understanding of how to implement Kafka’s High Level Consumer in Scala.
 Good luck!!
 ##References
 * [Consumer Group Example](https://cwiki.apache.org/confluence/display/KAFKA/Consumer+Group+Example)
 
 * [Kafka.org](http://kafka.apache.org/)
-layout: post
-title: How to use Kafka’s High Level Consumer in Scala
-categories: kafka
-abstract: "For a Kafka's beginner, it's not easy to source online examples that demonstrate how to use High Level Consumer API with Scala. So, here you are, below is a short introduction of this."
-comments: true
-tags: []
-image:
-  feature:
-  credit: 
-  creditlink: 
-date: 2015-12-07T23:11:41+08:00
-author: mark yang
----
 
 
 
