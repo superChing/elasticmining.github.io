@@ -3,7 +3,7 @@ layout: post
 title: Syntax-highlighting
 modified:
 categories: test
-abstract: "just for testing"
+description: "just for testing"
 comments: true
 tags: []
 image:
