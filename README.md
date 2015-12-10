@@ -111,7 +111,7 @@ First of all, you have to setup the jekyll environment
 3. `gem install jekyll`
 4. `gem install jekyll-paginate`
 5. `gem install pygments.rb`
-6. `gem install redcarpet`
+6. `gem install kramdown`
 
 Okay, if you still no clue what's going go.
 Please refer to [here](http://networm.me/jekyll-note.html)
