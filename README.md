@@ -7,10 +7,15 @@ This is the repository of [ElasticMining](http://www.elasticmining.com) website.
 ----
 If you want to make some conbribution, you can
 
-1. fix the typos, missed translations, or suggest in the issues
+1. Fix the typos, missed translations, or suggest in the issues
 2. Fix the HTML or CSS errors
 3. Write articles
 
+
+## Basic Git Tutorial
+----
+If you are not familar to Git, please read [this basic git tutorial](http://www.slideshare.net/pokaichang72/git-42427674).
+I highly recommend everyone should read this, because its fun and infomative.
 
 ## Standard Workflow
 ----
@@ -19,16 +24,16 @@ If you want to make some conbribution, you can
 3. `cd /path/to/repo` and `git branch develop` to create a new branch for further modification
 4. `git checkout develop` to switch the branch you just created
 5. `git remote add upstream https://github.com/ElasticMining/elasticmining.github.io.git` to add this repository as a remote upstream ropository
-6. `git remote update` to update the remote repo list
-7. `git fetch upstream` to update from the upstream repo
-8. `git merge upstream/master` to merge remote updates to the local repo 
-9. The steps above are for initialize your local git repo
+6. `git fetch upstream` to update from the upstream repo
+7. `git merge upstream/master` to merge remote updates to the local repo 
+8. The steps above are for initialize your local git repo
 
-Every time before you make any change, repeat step 6, 7 and 8 to sync the master with newest version on remote repo, and then make branch to modify.
+Every time before you make any change, repeat step 6 and  7 to sync the master with newest version on remote repo, and then make branch to modify.
 
 
 ## Add New Posts
 -----
+Make sure you still in the branch `develop`
 
 1. Copy the template `0000-00-00-template.md` from `_drafts` to `_posts` and rename the file name as your will
 2. Edit the post description in the header
@@ -36,8 +41,15 @@ Every time before you make any change, repeat step 6, 7 and 8 to sync the master
 4. `git add .` to stage the change you made
 5. `git commit -m "leave some comment"` to coomit the change
 6. `git pull upstream master` to sync this repo
-7. `git push origin master` to update your forked repo
+7. `git push origin develop:master` to update the local develop branch to your forked repo
 8. Okay, now you can issue a pull request
+
+
+### When You Need Do Modification After Issuing a Pull Request
+-----
+
+Just do all modification you need, and sync to your forked repo.
+Pull Request will update all the changes you made automatically.
 
 
 ## Post Header
@@ -72,21 +84,36 @@ The hightlighted header option needs you to customize
 5. **tags**: the tags this post should have
 6. **image**: the featured image shown in the head. You can leave it blank
 7. **date**: date
-8. **author**: the author id you are assigned
+8. **author**: the author id you are assigned, which is listed as follows
+
+### Author IDs
+Please use these IDs for the author info in post header
+
+```
+  May Yang: mayyang
+  Erica Li: ericali
+  Brayn Yang: bryanyang
+  Mark Yang: markyang
+  Chu-Yu Hsu: chuyuhsu
+  Ryan Chao: ryanchao
+  Larry Lo: larrylo
+```
 
 
 ## How to Test This Jekyll Site Locally.
 -----
 First of all, you have to setup the jekyll environment
+[Here](http://networm.me/jekyll-note.html) is a step-by-step go-through.
 
 1. Install rvm
-2. Install ruby 2.1
+2. Install ruby 2.2
 3. `gem install jekyll`
 4. `gem install jekyll-paginate`
 5. `gem install pygments.rb`
+6. `gem install redcarpet`
 
 Okay, if you still no clue what's going go.
-Please refer to [here](https://www.getpocket.com/a/read/1120352505)
+Please refer to [here](http://networm.me/jekyll-note.html)
 
 Now, you already have set the jekyll environment,
 You can start a jekyll server to view the change you made.
