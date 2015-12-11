@@ -2,7 +2,7 @@
 layout: post
 title: An Introduction to JVM
 categories: programming
-abstract: "Java is a very popular programming language and has been used widely in varied domains. Every Java programmer always meets OOM problem when developing applications. In order to solve it, it's better to notice the JVM workflow to clarify the problem."
+description: "Java is a very popular programming language and has been used widely in varied domains. Every Java programmer always meets OOM problem when developing applications. In order to solve it, it's better to notice the JVM workflow to clarify the problem."
 comments: true
 tags: []
 image:

@@ -1,4 +1,5 @@
 # Team names, titles and social links
+
 mayyang:
   name: May Yang
   display_name: May
@@ -15,22 +16,6 @@ mayyang:
     - title: twitter
       url: https://twitter.com/MayTaiwan
 
-
-larrylo:
-  name: Larry Lo
-  display_name: Larry
-  description: Larry experts in system architecture design, large scale server design and jvm performance tuning.<br><br>Larry aims to help people gain better lives, he participated in projects that either bridges the information gap between media published news and people's comments on forum, or identifies air pollution problem in Taiwan.<br><br>
-  email: larrylo@elasticmining.com
-  pic: 1
-  position: Backend Developer
-  gravatar: 
-  social:
-    - title: linkedin
-      url: https://tw.linkedin.com/in/larry-lo-32364388 
-    - title: github
-      url: http://github.com/LarryLo
-    - title: twitter
-      url: http:/twitter.com/LarryLo
  
 ericali:
   name: Erica Li
@@ -51,7 +36,7 @@ ericali:
 bryanyang:
   name: Bryan Yang
   display_name: Bryan
-  description: Bryan is a passionate big data analyst and insights discoverer. His specific expertise lies on data analysis, data engineering and data model design.<br> Bryan is a expert in digital commerce, mobile advertising, and online media industry and devoted to intergrate data into business processes .<br><br>
+  description: Bryan is a passionate big data analyst and insights discoverer. His specific expertise lies on data analysis, data engineering and data model design.<br><br> Bryan is a expert in digital commerce, mobile advertising, and online media industry and devoted to intergrate data into business processes .<br><br>
   email: bryan.yang@elasticmining.com
   pic: 1
   position: Big Data Analyst
@@ -63,22 +48,6 @@ bryanyang:
       url: https://github.com/bryanyang0528
     - title: twitter
       url: https://twitter.com/Bryanyang0528
-
-markyang:
-  name: Mark Yang
-  display_name: Mark
-  description: Mark tackles with big data related problems, with the help of tools like Apache Spark, Scala, Hadoop, Akka and Linux.His most recent project was a log monitor for his company. Mark was the 2015 HadoopCon speaker. He also continually coaches students big data tools.<br><br> Mark likes everything that is beautiful.<br><br>
-  email: markyang@elasticmining.com
-  pic: 1
-  position: Backend Developer
-  gravatar: 
-  social:
-    - title: linkedin
-      url: https://tw.linkedin.com/in/mark-yang-5a49b874  
-    - title: github
-      url: https://github.com/youngce
-    - title: twitter
-      url: https://twitter.com/youngce0918
 
 
 chuyuhsu:
@@ -97,7 +66,6 @@ chuyuhsu:
     - title: twitter
       url: https://twitter.com/ChuyuHsu
 
-
 ryanchao:
   name: Ryan Chao
   display_name: Ryan
@@ -114,5 +82,36 @@ ryanchao:
     - title: twitter
       url: https://twitter.com/ryanchao2012
 
+larrylo:
+  name: Larry Lo
+  display_name: Larry
+  description: Larry experts in system architecture design, large scale server design and jvm performance tuning.<br><br>Larry aims to help people gain better lives, he participated in projects that either bridges the information gap between media published news and people's comments on forum, or identifies air pollution problem in Taiwan.<br><br>
+  email: larrylo@elasticmining.com
+  pic: 1
+  position: Backend Developer
+  gravatar: 
+  social:
+    - title: linkedin
+      url: https://tw.linkedin.com/in/larry-lo-32364388 
+    - title: github
+      url: http://github.com/LarryLo
+    - title: twitter
+      url: http://twitter.com/LarryLo1025
 
+
+markyang:
+  name: Mark Yang
+  display_name: Mark
+  description: Mark tackles with big data related problems, with the help of tools like Apache Spark, Scala, Hadoop, Akka and Linux.His most recent project was a log monitor for his company. Mark was the 2015 HadoopCon speaker. He also continually coaches students big data tools.<br><br> Mark likes everything that is beautiful.<br><br>
+  email: markyang@elasticmining.com
+  pic: 1
+  position: Backend Developer
+  gravatar: 
+  social:
+    - title: linkedin
+      url: https://tw.linkedin.com/in/mark-yang-5a49b874  
+    - title: github
+      url: https://github.com/youngce
+    - title: twitter
+      url: https://twitter.com/youngce0918
 
