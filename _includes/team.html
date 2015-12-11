@@ -17,8 +17,10 @@
                             <div class="team-member">
                                 <img src="img/team/{{ member.pic }}.jpg" class="img-responsive img-round" alt="">
                                 <h4>{{ member.name }}</h4>
-                                <p class="text-muted">{{ member.position }}</p>
-                                <p class="text-muted" style="text-align: left;">{{ member.description }}</p>
+                                <p class="text-primary text-bold">{{ member.position }}</p>
+                                <p class="text-muted fixed-panel" style="text-align: left;">
+                                    {{ member.description | truncatewords:100 }}
+                                </p>
                                 <ul class="list-inline social-buttons">
                                     {% for network in member.social %}
                                     <li><a rel=”nofollow” target="_blank" href="{{ network.url }}"><i class="fa fa-{{ network.title }}"></i></a>
@@ -51,7 +53,7 @@
                                 <img src="img/team/1.jpg" class="img-responsive img-round" alt="">
                                 <h4>Jazz Wang</h4>
                                 <p class="text-muted">Team Consultant</p>
-                                <p class="text-muted">Jazz is a system administration expert with extensive experience building, improving, supporting and architecting Hadoop infrastructures. Jazz is a selfless leader to every engineers and analysts.
+                                <p class="text-muted fixed-panel">Jazz is a system administration expert with extensive experience building, improving, supporting and architecting Hadoop infrastructures. Jazz is a selfless leader to every engineers and analysts.
                                 <br><br>
                                 In his free time, he is an enthusiast in open source meetup. <br><br></p>
                                  <ul class="list-inline social-buttons">
@@ -64,7 +66,7 @@
                                 <img src="img/team/1.jpg" class="img-responsive img-round" alt="">
                                 <h4>Kent Shi</h4>
                                 <p class="text-muted">Team Consultant</p>
-                                <p class="text-muted">Kent is a machine learning and large scale data processing domain expert. He has completed QuikecCIRE development, ASUS Vibe, ETU insight and PIXNET user demographic detection system.  
+                                <p class="text-muted fixed-panel">Kent is a machine learning and large scale data processing domain expert. He has completed QuikecCIRE development, ASUS Vibe, ETU insight and PIXNET user demographic detection system.  
                                 <br><br>
                                 Sure, he likes traveling with family!<br><br></p>
                                  <ul class="list-inline social-buttons">
@@ -77,7 +79,7 @@
                                 <img src="img/team/1.jpg" class="img-responsive img-round" alt="">
                                 <h4>A Yuan</h4>
                                 <p class="text-muted">Team Consultant</p>
-                                <p class="text-muted">Osaki is a Front-end web developer & Web UI Designer. His major is in Html & css with jade & sass. Experience in building professional RWD and SPA website.
+                                <p class="text-muted fixed-panel">Osaki is a Front-end web developer & Web UI Designer. His major is in Html & css with jade & sass. Experience in building professional RWD and SPA website.
                                 <br><br>
                                 In his spare time Osaki likes to play online game League of Legends!<br><br></p>
                                  <ul class="list-inline social-buttons">

@@ -70,6 +70,18 @@ img {
 }
 
 
+.fixed-panel {
+    min-height: 15rem;
+    max-height: 15rem;
+    overflow-y: scroll;
+}
+
+
+.text-bold {
+    font-weight: 700;
+}
+
+
 .img-centered {
     margin: 0 auto;
 }
