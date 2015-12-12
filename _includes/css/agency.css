@@ -18,6 +18,34 @@ body {
     color: #{{ site.color.primary }};
 }
 
+.vcenter {
+    float:none;
+    display:inline-block;
+    vertical-align:middle;
+    margin-right:-4px;
+}
+
+.row-eq-height {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display:         flex;
+}
+
+.thumbnail {
+    display:table;
+    border-spacing: 2px;
+    border-collapse: separate;
+    border-radius:10px; /* Demonstrational.. */
+}
+.thumbnail_wrapper {
+    display:table-cell;
+    vertical-align:middle;
+}
+.thumbnail_wrapper > img {
+    width:100%;
+}
+
 p {
     font-size: 1.4rem;
     line-height: 1.75;
@@ -62,6 +90,11 @@ article p{
     font-family: Lora,'Times New Roman',serif;
     font-size: 2rem;
     color: #{{ site.color.secondary-dark }};
+}
+
+article.post {
+    padding-top: 2rem;
+    padding-bottom: 4rem;
 }
 
 img {

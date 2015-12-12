@@ -7,26 +7,37 @@ description: Things Worth Sharing
 
 <!-- Main Content -->
 <div class="container">
+  {% for post in site.posts %}
+    {% assign author = site.data.authors[post.author] %}
   <div class="row">
     <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+      <article class="post">
+        <div class="row row-eq-height">
+          <div class="col-xs-10">
+          <h2><a class="text-muted" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
 
-      <div class="home">
+          <p>{{ post.description }} </p>
 
-        <h1>Posts</h1>
+          <p class="meta">
+              posted by <a class="text-muted" href="">{{author.name}}</a> at {{ post.date | date: "%b %-d, %Y" }}
+          </p>
+          </div>
 
-        <ul class="posts">
-          {% for post in site.posts %}
-            <li>
-              <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
-              <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-            </li>
-          {% endfor %}
-        </ul>
-
-        <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
-      </div>
-
+<!--           <div class=" col-xs-2">
+            <div class="thumbnail" style="width: 100%; height: 100%;">
+    <div class="thumbnail_wrapper">
+            <img src="{{ site.baseurl }}/img/team/{{author.pic}}.jpg" class="img-responsive img-circle" alt="{{author.name}}">
+               </div>
+</div>
+          </div> -->
+        </div>
+      </article>
+    </div>
+  </div>
+  {% endfor %}
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+      <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
     </div>
   </div>
 </div>
