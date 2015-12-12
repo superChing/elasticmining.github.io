@@ -229,6 +229,7 @@ fieldset[disabled] .btn-xl.active {
     background-color: #fff;
 }
 
+
 .navbar-default {
     border-color: transparent;
     background-color: transparent;
@@ -294,6 +295,7 @@ fieldset[disabled] .btn-xl.active {
 
 @media(min-width:768px) {
     .navbar-default {
+        position: absolute;
         padding: 25px 0;
         border: 0;
         background-color: transparent;
@@ -324,6 +326,7 @@ fieldset[disabled] .btn-xl.active {
     }
 
     .navbar-default.navbar-shrink {
+        position: fixed;
         padding: 10px 0;
         background-color: #FFF;
     }
