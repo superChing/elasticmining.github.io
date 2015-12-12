@@ -18,6 +18,14 @@ body {
     color: #{{ site.color.primary }};
 }
 
+.text-dark {
+    color: #{{ secondary-dark }};
+}
+
+.text-bold {
+    font-weight: 700;
+}
+
 .vcenter {
     float:none;
     display:inline-block;
@@ -33,10 +41,8 @@ body {
 }
 
 .thumbnail {
+    border: 0px;
     display:table;
-    border-spacing: 2px;
-    border-collapse: separate;
-    border-radius:10px; /* Demonstrational.. */
 }
 .thumbnail_wrapper {
     display:table-cell;
@@ -107,11 +113,6 @@ img {
     min-height: 15rem;
     max-height: 15rem;
     overflow-y: scroll;
-}
-
-
-.text-bold {
-    font-weight: 700;
 }
 
 
