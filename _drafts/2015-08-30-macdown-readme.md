@@ -3,7 +3,7 @@ layout: post
 title: Macdown Readme
 modified:
 categories: test
-excerpt: "just for testing"
+description: "just for testing"
 tags: []
 comments: true
 image:

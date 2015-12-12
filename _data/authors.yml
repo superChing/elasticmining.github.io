@@ -1,118 +1,117 @@
 # Team names, titles and social links
+
 mayyang:
   name: May Yang
   display_name: May
-  gravatar: c66919cb194f96c696c1da0c47354a6a
-  email: hanzou@company.com
+  description: May is an experienced business consultant and marketing technologist. She is the proud owner of Marketing-Taiwan which offers business solution to global companies. Her focus is on digital marketing, market research and data analytics fields. <br><br> In her free time, she love reading, travelling and sports.<br><br>
+  email: may@elasticmining.com
   pic: 1
-  position: Lead Designer
+  position: Business Strategist
   gravatar: 
   social:
     - title: linkedin
-      url: #  
+      url: https://www.linkedin.com/in/maytaiwan  
     - title: github
-      url: #
+      url: https://github.com/mayyangtaiwan
     - title: twitter
-      url: #
+      url: https://twitter.com/MayTaiwan
 
+ 
 ericali:
   name: Erica Li
   display_name: Erica
-  gravatar: c66919cb194f96c696c1da0c47354a6a
-  email: hanzou@company.com
+  description: Erica specializes in e-commerce data mining and medical statistics, her project experiences include customer segmentation, customer life cycle, and BI report with Apache Spark. She is 2015 HadoopCon Speaker and an Apache Spark teacher.<br><br> Erica is also a popular blogger who spreads her positive energy to the world.<br><br>
+  email: ericali@elasticmining.com
   pic: 1
-  position: Lead Designer
+  position: Data Consultant
   gravatar: 
   social:
     - title: linkedin
-      url: #  
+      url: https://tw.linkedin.com/in/ericalitw
     - title: github
-      url: #
+      url: https://github.com/wlsherica
     - title: twitter
-      url: #
+      url: https://twitter.com/Shrimp_Li
 
 bryanyang:
-  name: Brayn Yang
+  name: Bryan Yang
   display_name: Bryan
-  gravatar: c66919cb194f96c696c1da0c47354a6a
-  email: hanzou@company.com
+  description: Bryan is a passionate big data analyst and insights discoverer. His specific expertise lies on data analysis, data engineering and data model design.<br><br> Bryan is a expert in digital commerce, mobile advertising, and online media industry and devoted to intergrate data into business processes .<br><br>
+  email: bryan.yang@elasticmining.com
   pic: 1
-  position: Lead Designer
+  position: Big Data Analyst
   gravatar: 
   social:
     - title: linkedin
-      url: #  
+      url: https://tw.linkedin.com/in/bryanyang0528
     - title: github
-      url: #
+      url: https://github.com/bryanyang0528
     - title: twitter
-      url: #
-
-markyang:
-  name: Mark Yang
-  display_name: Hanzou
-  gravatar: c66919cb194f96c696c1da0c47354a6a
-  email: hanzou@company.com
-  pic: 1
-  position: Lead Designer
-  gravatar: 
-  social:
-    - title: linkedin
-      url: #  
-    - title: github
-      url: #
-    - title: twitter
-      url: #
+      url: https://twitter.com/Bryanyang0528
 
 
 chuyuhsu:
   name: Chu-Yu Hsu
-  display_name: Hanzou
-  gravatar: c66919cb194f96c696c1da0c47354a6a
-  email: hanzou@company.com
+  display_name: Chu-Yu
+  description: Chu-Yu is the Big Data Jack-of-all-trades. His recent projects includes IR systems, Large-scale Named Entity Recognition, Knowledge recommendation system, and Adaptive Strategy Planing Optimizaton with Multi-armed Bandit Machine.<br><br>Chu-Yu is an AI enthusiast who always poking around the cutting edge techniques.<br><br>
+  email: chuyuhsu@elasticmining.com
   pic: 1
-  position: Lead Designer
+  position: Machine Learning Engineer
   gravatar: 
   social:
     - title: linkedin
-      url: #  
+      url: https://tw.linkedin.com/in/chuyuhsu  
     - title: github
-      url: #
+      url: https://github.com/ChuyuHsu
     - title: twitter
-      url: #
-
+      url: https://twitter.com/ChuyuHsu
 
 ryanchao:
   name: Ryan Chao
-  display_name: Hanzou
-  gravatar: c66919cb194f96c696c1da0c47354a6a
-  email: hanzou@company.com
+  display_name: Ryan
+  description: Ryan specializes in octave programing and neural network algorithm, and is familiar with R, python, C/C++. He ranks Top 25% in Kaggle competition (ICDM 2015 Drawbridge Cross-Device Connections). Ryan owns a mechanical engineering degree and has development experiences in 8051, ARM, iOS and Android applications. <br><br>In his spare time Ryan loves reading and learning!<br><br>
+  email: ryanchao2012@elasticmining.com
   pic: 1
-  position: Lead Designer
+  position: Data Scientist
   gravatar: 
   social:
     - title: linkedin
-      url: #  
+      url: https://tw.linkedin.com/in/ryan-chao-bb502168  
     - title: github
-      url: #
+      url: https://github.com/ryanchao2012
     - title: twitter
-      url: #
-
+      url: https://twitter.com/ryanchao2012
 
 larrylo:
   name: Larry Lo
-  display_name: Hanzou
-  gravatar: c66919cb194f96c696c1da0c47354a6a
-  email: hanzou@company.com
+  display_name: Larry
+  description: Larry experts in system architecture design, large scale server design and jvm performance tuning.<br><br>Larry aims to help people gain better lives, he participated in projects that either bridges the information gap between media published news and people's comments on forum, or identifies air pollution problem in Taiwan.<br><br>
+  email: larrylo@elasticmining.com
   pic: 1
-  position: Lead Designer
+  position: Backend Developer
   gravatar: 
   social:
     - title: linkedin
-      url: #  
+      url: https://tw.linkedin.com/in/larry-lo-32364388 
     - title: github
-      url: #
+      url: http://github.com/LarryLo
     - title: twitter
-      url: #
+      url: http://twitter.com/LarryLo1025
 
 
+markyang:
+  name: Mark Yang
+  display_name: Mark
+  description: Mark tackles with big data related problems, with the help of tools like Apache Spark, Scala, Hadoop, Akka and Linux.His most recent project was a log monitor for his company. Mark was the 2015 HadoopCon speaker. He also continually coaches students big data tools.<br><br> Mark likes everything that is beautiful.<br><br>
+  email: markyang@elasticmining.com
+  pic: 1
+  position: Backend Developer
+  gravatar: 
+  social:
+    - title: linkedin
+      url: https://tw.linkedin.com/in/mark-yang-5a49b874  
+    - title: github
+      url: https://github.com/youngce
+    - title: twitter
+      url: https://twitter.com/youngce0918
 

@@ -4,7 +4,7 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">Our Amazing Team</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                    <h3 class="section-subheading text-muted">Meet our Co-Founders!</h3>
                 </div>
             </div>
             {% for author in site.data.authors %}
@@ -18,10 +18,10 @@
                                 <img src="img/team/{{ member.pic }}.jpg" class="img-responsive img-round" alt="">
                                 <h4>{{ member.name }}</h4>
                                 <p class="text-muted">{{ member.position }}</p>
-                                <p class="text-muted">{{ member.description }}test</p>
+                                <p class="text-muted" style="text-align: left;">{{ member.description }}</p>
                                 <ul class="list-inline social-buttons">
                                     {% for network in member.social %}
-                                    <li><a href="{{ network.url }}"><i class="fa fa-{{ network.title }}"></i></a>
+                                    <li><a rel=”nofollow” target="_blank" href="{{ network.url }}"><i class="fa fa-{{ network.title }}"></i></a>
                                     {% endfor %}
 
                                 </ul>
@@ -38,7 +38,7 @@
 
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h3 class="section-subheading text-muted">Our Consultants</h3>
+                    <h3 class="section-subheading text-muted">Meet Our Consultants!</h3>
                 </div>
             </div>
 
@@ -51,7 +51,11 @@
                                 <img src="img/team/1.jpg" class="img-responsive img-round" alt="">
                                 <h4>Jazz Wang</h4>
                                 <p class="text-muted">Team Consultant</p>
-                                <p class="text-muted">Description</p>
+                                <p class="text-muted" style="text-align: left;">Jazz is a system administration expert with extensive experience building, improving, supporting and architecting Hadoop infrastructures. Jazz is a selfless leader to every engineers and analysts.
+                                <br></p>
+                                 <ul class="list-inline social-buttons">
+                                    <li><a target="_blank" rel=”nofollow” href="https://github.com/jazzwang"><i class="fa fa-github"></i></a>
+                                </ul>
                             </div>
                         </div>
                         <div class="col-sm-4">
@@ -59,15 +63,23 @@
                                 <img src="img/team/1.jpg" class="img-responsive img-round" alt="">
                                 <h4>Kent Shi</h4>
                                 <p class="text-muted">Team Consultant</p>
-                                <p class="text-muted">Description</p>
+                                <p class="text-muted" style="text-align: left;">Kent is a machine learning and large scale data processing domain expert. He has completed QuikecCIRE development, ASUS Vibe, ETU insight and PIXNET user demographic detection system.  
+                                <br></p>
+                                 <ul class="list-inline social-buttons">
+                                    <li><a target="_blank" rel=”nofollow” href="https://tw.linkedin.com/in/kentshih"><i class="fa fa-linkedin"></i></a>
+                                </ul>
                             </div>
                         </div>     
                         <div class="col-sm-4">
                             <div class="team-member">
                                 <img src="img/team/1.jpg" class="img-responsive img-round" alt="">
-                                <h4>A Yuan</h4>
-                                <p class="text-muted">Team Consultant</p>
-                                <p class="text-muted">Description</p>
+                                <h4>Osaki Hsieh</h4>
+                                <p class="text-muted" >Team Consultant</p>
+                                <p class="text-muted" style="text-align: left;">Osaki is a Front-end web developer & Web UI Designer. His major is in Html & css with jade & sass. Experience in building professional RWD and SPA website.
+                                <br></p>
+                                 <ul class="list-inline social-buttons">
+                                    <li><a target="_blank" rel=”nofollow” href="https://tw.linkedin.com/in/osaki-hsieh-a42a7855"><i class="fa fa-linkedin"></i></a>
+                                </ul>
                             </div>
                         </div>
                     </div>
@@ -76,7 +88,7 @@
             </div>            
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <p class="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p>
+                    <p class="large text-muted">ElasticMining is lovingly built and currently maintained by all these fine folks.</p>
                 </div>
             </div>
          

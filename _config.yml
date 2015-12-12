@@ -10,7 +10,7 @@ page_ext: html
 # Site settings
 title: ElasticMining
 slogan: Better. Faster. Stronger.
-email: your-email@domain.com
+email: support@elasticmining.com
 description: "Experts for data mining, data analysis and machine learning. Help you stay on top of the game with advanced technology."
 disqus-shortname: elasticmining
 
@@ -24,15 +24,15 @@ color:
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: twitter
-    url: http://twitter.com/jekyllrb
+    url: https://twitter.com/ElasticMining
   - title: facebook
-    url:
-  - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: bitbucket 
-    url: http://bitbucket.org/jekyll
-  - title: github
-    url: http://github.com/jekyll
+    url: https://www.facebook.com/ElasticMining
+  #- title: stack-overflow
+   # url: 
+  #- title: bitbucket 
+   # url: http://bitbucket.org/jekyll
+  #- title: github
+   # url: http://github.com/jekyll
 
 
 # Postal address (add as many lines as necessary)
@@ -42,11 +42,13 @@ address:
 
 
 # Build settings
-markdown: redcarpet
-markdown_ext:  markdown,mkdown,mkdn,mkd,md
-
-redcarpet:
-  extensions: ["tables", "autolink", "strikethrough", "space_after_headers", "with_toc_data", "fenced_code_blocks"]
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  input: GFM
 
 permalink: /post/:year-:month-:day/:title.html 
 highlighter: pygments
