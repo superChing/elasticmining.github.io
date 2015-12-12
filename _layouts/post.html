@@ -10,21 +10,47 @@ layout: page
 
                 {{ content }}
 
-                <hr>
+                <hr/>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <!-- share this post to social media -->
+
+                <hr/>
+            </div>
+        </div>        
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                 <div class="meta">
-                    <div class="container">
-                        <div class="col-lg-2 col-md-1">
-                            <img src="{{site.baseurl}}/img/team/{{ author.pic }}.jpg" class="img-responsive img-circle" alt="">
+                    <div class="row row-eq-height">
+                        <div class="col-md-3">
+                            <div class="thumbnail" style="">
+                                <div class="thumbnail_wrapper">
+                                    <img src="{{ site.baseurl }}/img/team/{{author.pic}}.jpg" class="img-responsive img-circle" alt="{{author.name}}">
+                                </div>
+                            </div>
                         </div>
-                        <div class="col-lg-10 col-md-11">
-                            About the Author
-                            <span class="author ">{{ author.name }}</span>
+                        <div class="col-md-9">
+                            <p class="text-bold text-dark">About the Author <span class="author text-primary">{{ author.name }}</span></p>
+                            <p class="text-muted" style="text-align: left;">
+                                    {{ author.description | truncatewords:100 }}
+                            </p>
+                            <ul class="list-inline social-buttons">
+                                {% for network in author.social %}
+                                <li style="text-align: center;"><a rel=”nofollow” target="_blank" href="{{ network.url }}"><i class="fa fa-{{ network.title }}"></i></a>
+                                {% endfor %}
+
+                            </ul>
                         </div>
                     </div>
-                    
-                    
                 </div>
 
+                <hr/>
+            </div>
+        </div>    
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                 <hr>
                 {% if site.disqus-shortname and page.comments == true %}
                   {% include disqus.html %}
@@ -40,9 +66,12 @@ layout: page
                         <a href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.next.title}}">Next Post &rarr;</a>
                     </li>
                     {% endif %}
-                </ul>
+                </ul>                    
 
+                <hr/>
             </div>
-        </div>
+        </div>              
     </div>
 </article>
+
+

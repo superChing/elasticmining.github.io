@@ -18,6 +18,40 @@ body {
     color: #{{ site.color.primary }};
 }
 
+.text-dark {
+    color: #{{ secondary-dark }};
+}
+
+.text-bold {
+    font-weight: 700;
+}
+
+.vcenter {
+    float:none;
+    display:inline-block;
+    vertical-align:middle;
+    margin-right:-4px;
+}
+
+.row-eq-height {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display:         flex;
+}
+
+.thumbnail {
+    border: 0px;
+    display:table;
+}
+.thumbnail_wrapper {
+    display:table-cell;
+    vertical-align:middle;
+}
+.thumbnail_wrapper > img {
+    width:100%;
+}
+
 p {
     font-size: 1.4rem;
     line-height: 1.75;
@@ -64,9 +98,21 @@ article p{
     color: #{{ site.color.secondary-dark }};
 }
 
+article.post {
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+}
+
 img {
     max-width:100%;
     max-height:100%; 
+}
+
+
+.fixed-panel {
+    min-height: 15rem;
+    max-height: 15rem;
+    overflow-y: scroll;
 }
 
 
@@ -184,6 +230,7 @@ fieldset[disabled] .btn-xl.active {
     background-color: #fff;
 }
 
+
 .navbar-default {
     border-color: transparent;
     background-color: transparent;
@@ -249,6 +296,7 @@ fieldset[disabled] .btn-xl.active {
 
 @media(min-width:768px) {
     .navbar-default {
+        position: absolute;
         padding: 25px 0;
         border: 0;
         background-color: transparent;
@@ -279,6 +327,7 @@ fieldset[disabled] .btn-xl.active {
     }
 
     .navbar-default.navbar-shrink {
+        position: fixed;
         padding: 10px 0;
         background-color: #FFF;
     }
