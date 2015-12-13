@@ -2,7 +2,7 @@
 layout: post
 title: How to use Kafka’s High Level Consumer in Scala
 categories: kafka
-abstract: "For a Kafka's beginner, it's not easy to source online examples that demonstrate how to use High Level Consumer API with Scala. So, here you are, below is a short introduction of this."
+description: "For a Kafka's beginner, it's not easy to source online examples that demonstrate how to use High Level Consumer API with Scala. So, here you are, below is a short introduction of this."
 comments: true
 tags: []
 image:
