@@ -3,9 +3,9 @@
 mayyang:
   name: May Yang
   display_name: May
-  description: May is an experienced business consultant and marketing technologist. She is the proud owner of Marketing-Taiwan which offers business solution to global companies. Her focus is on digital marketing, market research and data analytics fields. <br><br> In her free time, she love reading, travelling and sports.<br><br>
+  description: May is an experienced business consultant and marketing technologist. She is the proud owner of Marketing-Taiwan which offers business solution to global companies. Her focus is on digital marketing, market research and data analytics fields. <br><br> In her free time, she loves reading, travelling and sports.<br><br>
   email: may@elasticmining.com
-  pic: 1
+  pic: May
   position: Business Strategist
   gravatar: 
   social:
@@ -22,7 +22,7 @@ ericali:
   display_name: Erica
   description: Erica specializes in e-commerce data mining and medical statistics, her project experiences include customer segmentation, customer life cycle, and BI report with Apache Spark. She is 2015 HadoopCon Speaker and an Apache Spark teacher.<br><br> Erica is also a popular blogger who spreads her positive energy to the world.<br><br>
   email: ericali@elasticmining.com
-  pic: 1
+  pic: Erica
   position: Data Consultant
   gravatar: 
   social:
@@ -36,9 +36,9 @@ ericali:
 bryanyang:
   name: Bryan Yang
   display_name: Bryan
-  description: Bryan is a passionate big data analyst and insights discoverer. His specific expertise lies on data analysis, data engineering and data model design.<br><br> Bryan is a expert in digital commerce, mobile advertising, and online media industry and devoted to intergrate data into business processes .<br><br>
+  description: Bryan is a passionate big data analyst and insights discoverer. His specific expertise lies on data analysis, data engineering and data model design.<br><br> Bryan is an expert in digital commerce, mobile advertising, and online media industry and devoted to intergrate data into business processes .<br><br>
   email: bryan.yang@elasticmining.com
-  pic: 1
+  pic: Bryan
   position: Big Data Analyst
   gravatar: 
   social:
@@ -55,7 +55,7 @@ chuyuhsu:
   display_name: Chu-Yu
   description: Chu-Yu is the Big Data Jack-of-all-trades. His recent projects includes IR systems, Large-scale Named Entity Recognition, Knowledge recommendation system, and Adaptive Strategy Planing Optimizaton with Multi-armed Bandit Machine.<br><br>Chu-Yu is an AI enthusiast who always poking around the cutting edge techniques.<br><br>
   email: chuyuhsu@elasticmining.com
-  pic: 1
+  pic: chuyu
   position: Machine Learning Engineer
   gravatar: 
   social:
@@ -71,7 +71,7 @@ ryanchao:
   display_name: Ryan
   description: Ryan specializes in octave programing and neural network algorithm, and is familiar with R, python, C/C++. He ranks Top 25% in Kaggle competition (ICDM 2015 Drawbridge Cross-Device Connections). Ryan owns a mechanical engineering degree and has development experiences in 8051, ARM, iOS and Android applications. <br><br>In his spare time Ryan loves reading and learning!<br><br>
   email: ryanchao2012@elasticmining.com
-  pic: 1
+  pic: Ryan
   position: Data Scientist
   gravatar: 
   social:
@@ -87,7 +87,7 @@ larrylo:
   display_name: Larry
   description: Larry experts in system architecture design, large scale server design and jvm performance tuning.<br><br>Larry aims to help people gain better lives, he participated in projects that either bridges the information gap between media published news and people's comments on forum, or identifies air pollution problem in Taiwan.<br><br>
   email: larrylo@elasticmining.com
-  pic: 1
+  pic: Larry
   position: Backend Developer
   gravatar: 
   social:
@@ -104,7 +104,7 @@ markyang:
   display_name: Mark
   description: Mark tackles with big data related problems, with the help of tools like Apache Spark, Scala, Hadoop, Akka and Linux.His most recent project was a log monitor for his company. Mark was the 2015 HadoopCon speaker. He also continually coaches students big data tools.<br><br> Mark likes everything that is beautiful.<br><br>
   email: markyang@elasticmining.com
-  pic: 1
+  pic: Mark
   position: Backend Developer
   gravatar: 
   social:
