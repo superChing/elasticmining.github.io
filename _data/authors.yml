@@ -3,7 +3,7 @@
 mayyang:
   name: May Yang
   display_name: May
-  description: May is an experienced business consultant and marketing technologist. She is the proud owner of Marketing-Taiwan which offers business solution to global companies. Her focus is on digital marketing, market research and data analytics fields. <br><br> In her free time, she love reading, travelling and sports.<br><br>
+  description: May is an experienced business consultant and marketing technologist. She is the proud owner of Marketing-Taiwan which offers business solution to global companies. Her focus is on digital marketing, market research and data analytics fields. <br><br> In her free time, she loves reading, travelling and sports.<br><br>
   email: may@elasticmining.com
   pic: 1
   position: Business Strategist
@@ -36,7 +36,7 @@ ericali:
 bryanyang:
   name: Bryan Yang
   display_name: Bryan
-  description: Bryan is a passionate big data analyst and insights discoverer. His specific expertise lies on data analysis, data engineering and data model design.<br><br> Bryan is a expert in digital commerce, mobile advertising, and online media industry and devoted to intergrate data into business processes .<br><br>
+  description: Bryan is a passionate big data analyst and insights discoverer. His specific expertise lies on data analysis, data engineering and data model design.<br><br> Bryan is an expert in digital commerce, mobile advertising, and online media industry and devoted to intergrate data into business processes .<br><br>
   email: bryan.yang@elasticmining.com
   pic: 1
   position: Big Data Analyst
@@ -53,7 +53,7 @@ bryanyang:
 chuyuhsu:
   name: Chu-Yu Hsu
   display_name: Chu-Yu
-  description: Chu-Yu is the Big Data Jack-of-all-trades. His recent projects includes IR systems, Large-scale Named Entity Recognition, Knowledge recommendation system, and Adaptive Strategy Planing Optimizaton with Multi-armed Bandit Machine.<br><br>Chu-Yu is an AI enthusiast who always poking around the cutting edge techniques.<br><br>
+  description: Chu-Yu is the Big Data jack-of-all-trades. His recent projects includes IR systems, Large-scale Named Entity Recognition, Knowledge Recommendation System, and Adaptive Strategy Planing Optimizaton with Multi-armed Bandit Machine.<br><br>Chu-Yu is an AI enthusiast who always poking around the cutting edge techniques.<br><br>
   email: chuyuhsu@elasticmining.com
   pic: 1
   position: Machine Learning Engineer
@@ -115,3 +115,18 @@ markyang:
     - title: twitter
       url: https://twitter.com/youngce0918
 
+superching:
+  name: Wei-Ching Lin
+  display_name: Wei-Ching
+  description: Natural Language Processig, Text Mining, Apache Spark are key areas Wei-Ching focuses on. He ranks top 2% in Kaggle Rossmann Store Challenge and was 2015 HadoopCon speaker.<br><br>Wei-Ching has big goal, he wants to make machines do all annoying chores for us and to relieve us from boring jobs.<br><br>
+  email: superching@elasticmining.com
+  pic: 1
+  position: Data Engineer
+  gravatar: 
+  social:
+    - title: linkedin
+      url: https://en.gravatar.com/thesuperching
+    - title: github
+      url: https://github.com/superching
+    - title: twitter
+      url: https://twitter.com/theSuperChing
