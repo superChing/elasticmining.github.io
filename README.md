@@ -98,6 +98,7 @@ Please use these IDs for the author info in post header
   Chu-Yu Hsu: chuyuhsu
   Ryan Chao: ryanchao
   Larry Lo: larrylo
+  Wei-Ching Lin:  superching
 ```
 
 
