@@ -2,7 +2,7 @@
 layout: post
 title: The Structure of JVM
 categories: programming
-description: "If you want to be a beeter java developer, this article will help you to know more details in a java process."
+description: "If you want to be a better java developer, this article will help you to know more details in a java process."
 comments: true
 tags: ["jvm", "class loader", "execution engine", "run-time data areas"]
 image:
