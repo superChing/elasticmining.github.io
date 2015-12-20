@@ -5,11 +5,7 @@ mayyang:
   display_name: May
   description: May is an experienced business consultant and marketing technologist. She is the proud owner of Marketing-Taiwan which offers business solution to global companies. Her focus is on digital marketing, market research and data analytics fields. <br><br> In her free time, she loves reading, travelling and sports.<br><br>
   email: may@elasticmining.com
-<<<<<<< b562a5a56954d4722db6ae971f8beee82580ab5d
   pic: may
-=======
-  pic: May
->>>>>>> updated photos and authors.yml
   position: Business Strategist
   gravatar: 
   alt: Business Strategist experts in Big Data and Marketing Analysis
@@ -27,11 +23,7 @@ ericali:
   display_name: Erica
   description: Erica specializes in e-commerce data mining and medical statistics, her project experiences include customer segmentation, customer life cycle, and BI report with Apache Spark. She is 2015 HadoopCon Speaker and an Apache Spark teacher.<br><br> Erica is also a popular blogger who spreads her positive energy to the world.<br><br>
   email: ericali@elasticmining.com
-<<<<<<< b562a5a56954d4722db6ae971f8beee82580ab5d
   pic: erica
-=======
-  pic: Erica
->>>>>>> updated photos and authors.yml
   position: Data Consultant
   gravatar:
   alt: Data Consultant experts in Data Mining, Big Data and medical statistics
@@ -48,11 +40,7 @@ bryanyang:
   display_name: Bryan
   description: Bryan is a passionate big data analyst and insights discoverer. His specific expertise lies on data analysis, data engineering and data model design.<br><br> Bryan is an expert in digital commerce, mobile advertising, and online media industry and devoted to intergrate data into business processes .<br><br>
   email: bryan.yang@elasticmining.com
-<<<<<<< b562a5a56954d4722db6ae971f8beee82580ab5d
   pic: bryan
-=======
-  pic: Bryan
->>>>>>> updated photos and authors.yml
   position: Big Data Analyst
   gravatar: 
   alt: Big Data Analysis and Data science expert
@@ -87,11 +75,7 @@ ryanchao:
   display_name: Ryan
   description: Ryan specializes in octave programing and neural network algorithm, and is familiar with R, python, C/C++. He ranks Top 25% in Kaggle competition (ICDM 2015 Drawbridge Cross-Device Connections). Ryan owns a mechanical engineering degree and has development experiences in 8051, ARM, iOS and Android applications. <br><br>In his spare time Ryan loves reading and learning!<br><br>
   email: ryanchao2012@elasticmining.com
-<<<<<<< b562a5a56954d4722db6ae971f8beee82580ab5d
   pic: ryan
-=======
-  pic: Ryan
->>>>>>> updated photos and authors.yml
   position: Data Scientist
   gravatar: 
   alt: Data Scientist experts in machine learning and big data algorithm
@@ -108,11 +92,7 @@ larrylo:
   display_name: Larry
   description: Larry experts in system architecture design, large scale server design and jvm performance tuning.<br><br>Larry aims to help people gain better lives, he participated in projects that either bridges the information gap between media published news and people's comments on forum, or identifies air pollution problem in Taiwan.<br><br>
   email: larrylo@elasticmining.com
-<<<<<<< b562a5a56954d4722db6ae971f8beee82580ab5d
   pic: larry
-=======
-  pic: Larry
->>>>>>> updated photos and authors.yml
   position: Backend Developer
   gravatar: 
   alt: Big Data Backend Developer
