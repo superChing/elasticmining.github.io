@@ -15,8 +15,6 @@ author: chuyuhsu
 
 # What is Data Science?
 
-description: 
-
 
 > Data Scientist: The Sexiest Job of the 21st Century. 
 > 
