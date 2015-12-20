@@ -8,6 +8,7 @@ mayyang:
   pic: may
   position: Business Strategist
   gravatar: 
+  alt: Business Strategist experts in Big Data and Marketing Analysis
   social:
     - title: linkedin
       url: https://www.linkedin.com/in/maytaiwan  
@@ -24,7 +25,8 @@ ericali:
   email: ericali@elasticmining.com
   pic: erica
   position: Data Consultant
-  gravatar: 
+  gravatar:
+  alt: Data Consultant experts in Data Mining, Big Data and medical statistics
   social:
     - title: linkedin
       url: https://tw.linkedin.com/in/ericalitw
@@ -41,6 +43,7 @@ bryanyang:
   pic: bryan
   position: Big Data Analyst
   gravatar: 
+  alt: Big Data Analysis and Data science expert
   social:
     - title: linkedin
       url: https://tw.linkedin.com/in/bryanyang0528
@@ -58,6 +61,7 @@ chuyuhsu:
   pic: chuyu
   position: Machine Learning Engineer
   gravatar: 
+  alt: Machine Learning Engineer who loves to work with Big data
   social:
     - title: linkedin
       url: https://tw.linkedin.com/in/chuyuhsu  
@@ -74,6 +78,7 @@ ryanchao:
   pic: ryan
   position: Data Scientist
   gravatar: 
+  alt: Data Scientist experts in machine learning and big data algorithm
   social:
     - title: linkedin
       url: https://tw.linkedin.com/in/ryan-chao-bb502168  
@@ -90,6 +95,7 @@ larrylo:
   pic: larry
   position: Backend Developer
   gravatar: 
+  alt: Big Data Backend Developer
   social:
     - title: linkedin
       url: https://tw.linkedin.com/in/larry-lo-32364388 
@@ -107,6 +113,7 @@ markyang:
   pic: mark
   position: Backend Developer
   gravatar: 
+  alt: Big Data Backend Developer
   social:
     - title: linkedin
       url: https://tw.linkedin.com/in/mark-yang-5a49b874  
@@ -123,9 +130,10 @@ superching:
   pic: Wayne
   position: Data Engineer
   gravatar: 
+  alt: Big Data Engineer
   social:
     - title: linkedin
-      url: https://en.gravatar.com/thesuperching
+      url: http://tw.linkedin.com/in/superching
     - title: github
       url: https://github.com/superching
     - title: twitter
