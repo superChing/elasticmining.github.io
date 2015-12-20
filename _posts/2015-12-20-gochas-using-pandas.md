@@ -27,9 +27,9 @@ df['a'] = series
 df['a']
 ```
 You would instead get `NaN` in your new column.
-> 3   NaN  
-> 4   NaN  
-> Name: a, dtype: float64
+> 3    NaN  
+> 4    NaN  
+> Name: a, dtype: float64  
 
 If you were Numpy user or Spark dataframe user , it may surprise you -- **operations in Pandas are index-aware**, e.g. assign, add , compare, to name a few. That occasionally would make you mad if what you intend is Numpy style operation .   
 The example is somewhat contrived since I make the index different first, but in reality it's common that after data being wrangled the index is disordered.
@@ -49,9 +49,9 @@ series=pd.Series([1,np.nan])
 series==np.nan
 ```
 you get
-> 0    False
-> 1    False
-> dtype: bool
+> 0    False  
+> 1    False  
+> dtype: bool   
 
 If you comes from SQL, you could have assumed that the result is `NaN`, because that's what SQL's `NULL` would do. In fact, missing value comparison in Pandas, i.e. comparing anything to `NaN`, would result in a `False`.
 The right way to compare NaN is `isnull()` method.
