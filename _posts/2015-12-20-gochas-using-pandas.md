@@ -27,9 +27,9 @@ df['a'] = series
 df['a']
 ```
 You would instead get `NaN` in your new column.
-> 3   NaN
-4   NaN
-Name: a, dtype: float64
+> 3   NaN  
+> 4   NaN  
+> Name: a, dtype: float64
 
 If you were Numpy user or Spark dataframe user , it may surprise you -- **operations in Pandas are index-aware**, e.g. assign, add , compare, to name a few. That occasionally would make you mad if what you intend is Numpy style operation .   
 The example is somewhat contrived since I make the index different first, but in reality it's common that after data being wrangled the index is disordered.
@@ -49,8 +49,8 @@ df=pd.DataFrame([1,np.nan])
 df==np.nan
 ```
 you get
-> 0	False
-1	False
+> 0	False  
+> 1	False  
 
 If you comes from SQL, you could have assumed that the result is `NaN`, because that's what SQL's `NULL` would do. In fact, missing value comparison in Pandas, i.e. comparing anything to `NaN`, would result in a `False`.
 The right way to compare NaN is `isnull()` method.
@@ -63,8 +63,8 @@ df=df.astype(bool)
 df
 ```
 you get
-> 0	True
-1	True
+> 0	True  
+> 1	True  
 
 What unexpected is that the `NaN` is converted into `True`. The information of missing value is lost during the conversion.  
 The gotcha is -- **only float type has `NaN`**. Other types will translate `NaN` to their type, the consequence is it's hard or impossible to tell is it a missing value. So the better way is **try as possible to use float type**.
@@ -76,7 +76,7 @@ This one is notorious. We know that Pandas dataframe is mutable structure. That 
 a= np.array([1,2,3,4])
 b=a[:2]
 b[0]=1000
-assert a[0]==1000 #True
+assert a[0]==1000 #True  
 ```
 
 However in Pandas, things got more intricate.
@@ -87,9 +87,9 @@ df[0:1]['a']=100
 df['a']
 ```
 Here you get :
-> 0    1
-1    2
-Name: a, dtype: object
+> 0    1  
+> 1    2  
+> Name: a, dtype: object  
 
 The result is not updated to 100 which is not what the coder intend apparently. The explanation is: The indexing happens with 2 calls, or a *chained indexing*, corresponding to two brackets. The crux is it's possible that either call would return a copy of the data. Thus **when updating, you are actually updating a copy of original dataframe.** In other words, the above code is equivalent to :
 ```python
@@ -117,8 +117,8 @@ for k,v in gb['weight']:
     print('weight of all {}s = {}'.format(k,v.sum()))
 ```
 you get:
->    weight of all cats = 4
->    weight of all dogs = 2
+> weight of all cats = 4  
+> weight of all dogs = 2  
 
 Moreover, you can apply a user-defined-groupby-function that return anything. If you returning `dataframe` or `series`, Pandas will automatically combined them back into a big `dataframe`.
 
