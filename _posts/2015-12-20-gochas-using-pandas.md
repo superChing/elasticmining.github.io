@@ -45,12 +45,13 @@ Pandas called this index-aware behavior **Automatic Data Alignment**; I see it j
 What would you do if you wanna detect missing values?
 
 ```python
-df=pd.DataFrame([1,np.nan])
-df==np.nan
+series=pd.Series([1,np.nan])
+series==np.nan
 ```
 you get
-> 0	False  
-> 1	False  
+> 0    False
+> 1    False
+> dtype: bool
 
 If you comes from SQL, you could have assumed that the result is `NaN`, because that's what SQL's `NULL` would do. In fact, missing value comparison in Pandas, i.e. comparing anything to `NaN`, would result in a `False`.
 The right way to compare NaN is `isnull()` method.
@@ -63,8 +64,9 @@ df=df.astype(bool)
 df
 ```
 you get
-> 0	True  
-> 1	True  
+> 0    True  
+> 1    True  
+> dtype: bool   
 
 What unexpected is that the `NaN` is converted into `True`. The information of missing value is lost during the conversion.  
 The gotcha is -- **only float type has `NaN`**. Other types will translate `NaN` to their type, the consequence is it's hard or impossible to tell is it a missing value. So the better way is **try as possible to use float type**.
@@ -125,7 +127,7 @@ Moreover, you can apply a user-defined-groupby-function that return anything. If
 ```python
 gb.apply(lambda x: x[['color','like']].describe())
 ```
-you get:
+you get:     
 ![df](/img/blog/wayne/dataframe_20151220.png)
 
 
