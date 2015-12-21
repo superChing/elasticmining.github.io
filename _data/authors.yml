@@ -3,11 +3,12 @@
 mayyang:
   name: May Yang
   display_name: May
-  description: May is an experienced business consultant and marketing technologist. She is the proud owner of Marketing-Taiwan which offers business solution to global companies. Her focus is on digital marketing, market research and data analytics fields. <br><br> In her free time, she love reading, travelling and sports.<br><br>
+  description: May is an experienced business consultant and marketing technologist. She is the proud owner of Marketing-Taiwan which offers business solution to global companies. Her focus is on digital marketing, market research and data analytics fields. <br><br> In her free time, she loves reading, travelling and sports.<br><br>
   email: may@elasticmining.com
-  pic: 1
+  pic: may
   position: Business Strategist
   gravatar: 
+  alt: Business Strategist experts in Big Data and Marketing Analysis
   social:
     - title: linkedin
       url: https://www.linkedin.com/in/maytaiwan  
@@ -22,12 +23,13 @@ ericali:
   display_name: Erica
   description: Erica specializes in e-commerce data mining and medical statistics, her project experiences include customer segmentation, customer life cycle, and BI report with Apache Spark. She is 2015 HadoopCon Speaker and an Apache Spark teacher.<br><br> Erica is also a popular blogger who spreads her positive energy to the world.<br><br>
   email: ericali@elasticmining.com
-  pic: 1
+  pic: erica
   position: Data Consultant
-  gravatar: 
+  gravatar:
+  alt: Data Consultant experts in Data Mining, Big Data and medical statistics
   social:
     - title: linkedin
-      url: https://tw.linkedin.com/in/ericalitw
+      url: https://www.linkedin.com/in/ericalitw
     - title: github
       url: https://github.com/wlsherica
     - title: twitter
@@ -36,14 +38,15 @@ ericali:
 bryanyang:
   name: Bryan Yang
   display_name: Bryan
-  description: Bryan is a passionate big data analyst and insights discoverer. His specific expertise lies on data analysis, data engineering and data model design.<br><br> Bryan is a expert in digital commerce, mobile advertising, and online media industry and devoted to intergrate data into business processes .<br><br>
+  description: Bryan is a passionate big data analyst and insights discoverer. His specific expertise lies on data analysis, data engineering and data model design.<br><br> Bryan is an expert in digital commerce, mobile advertising, and online media industry and devoted to intergrate data into business processes .<br><br>
   email: bryan.yang@elasticmining.com
-  pic: 1
+  pic: bryan
   position: Big Data Analyst
   gravatar: 
+  alt: Big Data Analysis and Data science expert
   social:
     - title: linkedin
-      url: https://tw.linkedin.com/in/bryanyang0528
+      url: https://www.linkedin.com/in/bryanyang0528
     - title: github
       url: https://github.com/bryanyang0528
     - title: twitter
@@ -53,14 +56,15 @@ bryanyang:
 chuyuhsu:
   name: Chu-Yu Hsu
   display_name: Chu-Yu
-  description: Chu-Yu is the Big Data Jack-of-all-trades. His recent projects includes IR systems, Large-scale Named Entity Recognition, Knowledge recommendation system, and Adaptive Strategy Planing Optimizaton with Multi-armed Bandit Machine.<br><br>Chu-Yu is an AI enthusiast who always poking around the cutting edge techniques.<br><br>
+  description: Chu-Yu is the Big Data jack-of-all-trades. His recent projects includes IR systems, Large-scale Named Entity Recognition, Knowledge Recommendation System, and Adaptive Strategy Planing Optimizaton with Multi-armed Bandit Machine.<br><br>Chu-Yu is an AI enthusiast who always poking around the cutting edge techniques.<br><br>
   email: chuyuhsu@elasticmining.com
-  pic: 1
+  pic: chuyu
   position: Machine Learning Engineer
   gravatar: 
+  alt: Machine Learning Engineer who loves to work with Big data
   social:
     - title: linkedin
-      url: https://tw.linkedin.com/in/chuyuhsu  
+      url: https://www.linkedin.com/in/chuyuhsu  
     - title: github
       url: https://github.com/ChuyuHsu
     - title: twitter
@@ -71,12 +75,13 @@ ryanchao:
   display_name: Ryan
   description: Ryan specializes in octave programing and neural network algorithm, and is familiar with R, python, C/C++. He ranks Top 25% in Kaggle competition (ICDM 2015 Drawbridge Cross-Device Connections). Ryan owns a mechanical engineering degree and has development experiences in 8051, ARM, iOS and Android applications. <br><br>In his spare time Ryan loves reading and learning!<br><br>
   email: ryanchao2012@elasticmining.com
-  pic: 1
+  pic: ryan
   position: Data Scientist
   gravatar: 
+  alt: Data Scientist experts in machine learning and big data algorithm
   social:
     - title: linkedin
-      url: https://tw.linkedin.com/in/ryan-chao-bb502168  
+      url: https://www.linkedin.com/in/ryan-chao-bb502168  
     - title: github
       url: https://github.com/ryanchao2012
     - title: twitter
@@ -87,12 +92,13 @@ larrylo:
   display_name: Larry
   description: Larry experts in system architecture design, large scale server design and jvm performance tuning.<br><br>Larry aims to help people gain better lives, he participated in projects that either bridges the information gap between media published news and people's comments on forum, or identifies air pollution problem in Taiwan.<br><br>
   email: larrylo@elasticmining.com
-  pic: 1
+  pic: larry
   position: Backend Developer
   gravatar: 
+  alt: Big Data Backend Developer
   social:
     - title: linkedin
-      url: https://tw.linkedin.com/in/larry-lo-32364388 
+      url: https://www.linkedin.com/in/larry-lo-32364388 
     - title: github
       url: http://github.com/LarryLo
     - title: twitter
@@ -104,14 +110,31 @@ markyang:
   display_name: Mark
   description: Mark tackles with big data related problems, with the help of tools like Apache Spark, Scala, Hadoop, Akka and Linux.His most recent project was a log monitor for his company. Mark was the 2015 HadoopCon speaker. He also continually coaches students big data tools.<br><br> Mark likes everything that is beautiful.<br><br>
   email: markyang@elasticmining.com
-  pic: 1
+  pic: mark
   position: Backend Developer
   gravatar: 
+  alt: Big Data Backend Developer
   social:
     - title: linkedin
-      url: https://tw.linkedin.com/in/mark-yang-5a49b874  
+      url: https://www.linkedin.com/in/mark-yang-5a49b874  
     - title: github
       url: https://github.com/youngce
     - title: twitter
       url: https://twitter.com/youngce0918
 
+superching:
+  name: Wei-Ching Lin
+  display_name: Wei-Ching
+  description: Natural Language Processig, Text Mining, Apache Spark are key areas Wei-Ching focuses on. He ranks top 2% in Kaggle Rossmann Store Challenge and was 2015 HadoopCon speaker.<br><br>Wei-Ching has big goal, he wants to make machines do all annoying chores for us and to relieve us from boring jobs.<br><br>
+  email: superching@elasticmining.com
+  pic: Wayne
+  position: Data Engineer
+  gravatar: 
+  alt: Big Data Engineer
+  social:
+    - title: linkedin
+      url: http://www.linkedin.com/in/superching
+    - title: github
+      url: https://github.com/superching
+    - title: twitter
+      url: https://twitter.com/theSuperChing
