@@ -10,7 +10,7 @@ feature:
 credit:
 creditlink:
 date: 2015-12-20T00:00:00+00:00
-author: weichinglin
+author: superching
 ---
 
 # Gotchas of using Pandas
