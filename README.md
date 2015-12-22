@@ -42,6 +42,8 @@ Make sure you still in the branch `develop`
 
 The following is the notorious git part.
 Make sure you are on the `dev` branch.
+
+
 1. `git add .` to stage all the changes you made
 2. `git commit -m "leave some comment"` to coomit the change
 3. `git fetch upstream` to sync upstream repo
