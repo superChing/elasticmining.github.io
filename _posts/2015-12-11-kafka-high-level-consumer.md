@@ -60,6 +60,7 @@ val numThread=1
 val topicCounts=Map(topic->numThread)
 val consumerMap=consumer.createMessageStreams(topicCounts)
 ```
+
 ## Step4: Print the messages
 
 ```scala

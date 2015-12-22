@@ -85,10 +85,12 @@ Here we use “_” to replace g:Int=>Int. Type of *fc* is ((Int) => Int) => Int
 
 
 >Note
-The follow writing will make the failure, you need to determine type of _, because compiler can not recognize it.
+The line val fc=f(1,10,_) would fail. you need to specify type of `_`, because compiler can not recognize it.
 
 ## Summary
-我們現在知道如何在Scala中定義一個函數, 並且實作出加總函數,最後我們利用Scala中神奇的"_" 實現了數學上的合成函數. 希望這對大家有幫助
+Now we know how to define a function in Scala, and practice summation function. Then we use amazing _ in Scala to implement mathematical function composition.
+Hope they are useful for you.
+
 
 
 
