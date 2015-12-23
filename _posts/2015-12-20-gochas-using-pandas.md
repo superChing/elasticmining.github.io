@@ -109,7 +109,7 @@ you get:
     </tr>
   </tbody>
 </table>
-</div><br>If you come from SQL, you could have assumed that the result is `NaN`, because that's what SQL's `NULL` would do. In fact, missing value comparison in Pandas, i.e. comparing anything to `NaN`, would result in a `False`. And the right way to compare NaN is `isnull()` method:  
+</div><br>If you come from SQL, you could have assumed that the result is `NaN`, because that's what SQL's `NULL` would do (return NULL). In fact, missing value comparison in Pandas, i.e. comparing anything to `NaN`, would result in a `False`. And the right way to compare NaN is `isnull()` method:  
 
 ```python  
 df=pd.DataFrame({'column1':[1,np.nan]})   
