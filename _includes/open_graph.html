@@ -11,8 +11,7 @@
 <meta name="twitter:image" content="{% if page.image.thumb %}{{ site.url }}/img/{{ page.image.thumb }}{% else %}{{ site.url }}/img/site-thumb.jpg{% endif %}">
 {% endif %}
 <!-- Open Graph -->
-<meta property="og:locale" content="{{ site.locale }}">
-<meta property="og:type" content="article">
+<!--<meta property="og:locale" content="{{ site.locale }}">-->
 <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
 <meta property="og:description" content="{{ site.title }}{% if page.title %} - {{ page.title }}{% endif %}: {% if page.description %}{{ page.description | strip_html }}{% else %}{{ site.description }}{% endif %}">
 <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.url }}">
@@ -22,3 +21,4 @@
 {% else %}
 <meta property="og:image" content="{{ site.url}}/img/site-thumb.jpg">
 {% endif %}
+<meta property="og:type" content="website" />
