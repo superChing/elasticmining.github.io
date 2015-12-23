@@ -14,12 +14,14 @@ author: superching
 ---
 
 # Gotchas of using Pandas
-Pandas is a tool of Python for data processing, which provide a dataframe structure that you can leverage to handle complex structured data. When you face the data and you know Python, Pandas is a must-have tool that facilitate your *data wrangling*. In data science, we first wrangle the data, then torture data in the hope that they will confess. If you are new to Pandas, you probably would be confused at some point. Here are 4 gotchas that I had experienced.
+Pandas is a tool of Python for data processing, which provides a dataframe structure that you can handle complex structured data. When you have data on hand and you know how to use Python, Pandas is a must-have package that facilitates your *data wrangling*. In data science, we firstly wrangle the data, then torture data in the hope that they will confess. If you are new to Pandas, you probably would be confused at some point. Here are 4 gotchas that I had experienced.
 
 ### gotcha 1
-Say you have a series `series` of values [1,2,3], you wanna append it to new column of existing dataframe `df`.
+Say you have a series `series` of values [1,2], you wanna append it to new column of existing dataframe `df`.
 
 ```python
+import pandas as pd
+
 series=pd.Series([1,2])
 df=pd.DataFrame(index=[3,4])
 df['column1']=series
@@ -45,22 +47,44 @@ you would instead get `NaN` in your new column:
     </tr>
   </tbody>
 </table>
-</div><br>If you were Numpy user or Spark dataframe user, it may surprise you — **the operations in Pandas are index-aware**, e.g. assign, add , compare, to name a few. That occasionally would make you mad if what you intend is Numpy style operation. The example is somewhat contrived since I make the index different first, but in reality it's common that after data being wrangled the index is disordered.
+</div><br>If you were Numpy user or Spark dataframe user, it may surprise you — **the operations in Pandas are index-aware**:  
+![index-aware](/img/blog/wayne/pandas_index_aware.jpg)  
+Operations, e.g. assign, add, compare, to name a few aware indices of operands. That occasionally would make you mad if what you want is Numpy style operation. The example is somewhat contrived since I make the index different first, but in reality it's common that after data being wrangled the index is disordered.
 
 If you want to ignore index the right way to go is to turn it into a Numpy ndarray :
 
 ```python
-df['a']=series.values
+df['column1']=series.values
 ```
-
+you get:
+<div>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>column1</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>3</th>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>2</td>
+    </tr>
+  </tbody>
+</table>
+</div><br>  
 Pandas called this index-aware behavior **Automatic Data Alignment**; I see it just an implicit auto index join. Pandas put much effort into *index*, there's even *multi-index* dataframe for advanced users. When you're coding pandas, you must bear this in minds — *pandas is index-aware*.
 
 ### gotcha 2
 What would you do if you wanna detect missing values?
 
 ```python
-series=pd.Series([1,np.nan])
-series==np.nan
+df2=pd.DataFrame({'column1':[1,np.nan]})
+df2==np.nan
 ```
 you get:
 <div>
@@ -82,7 +106,31 @@ you get:
     </tr>
   </tbody>
 </table>
-</div><br>If you comes from SQL, you could have assumed that the result is `NaN`, because that's what SQL's `NULL` would do. In fact, missing value comparison in Pandas, i.e. comparing anything to `NaN`, would result in a `False`. And the right way to compare NaN is `isnull()` method.
+</div><br>If you come from SQL, you could have assumed that the result is `NaN`, because that's what SQL's `NULL` would do. In fact, missing value comparison in Pandas, i.e. comparing anything to `NaN`, would result in a `False`. And the right way to compare NaN is `isnull()` method :
+```python
+df=pd.DataFrame({'column1':[1,np.nan]})
+df.isnull()
+```
+<div>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>column1</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>True</td>
+    </tr>
+  </tbody>
+</table>
+</div><br>
 
 Another gotcha about missing value here, Consider you get a binary valued column, in `df`, you convert it to boolean type to better convey the meaning of values.
 
@@ -187,10 +235,10 @@ for k,v in gb['weight']:
 ```
 you get:
 
-> weight of all cats = 4
+> weight of all cats = 5
 > weight of all dogs = 2
 
-Moreover, you can apply a user-defined-groupby-function that return *anything*. If you return dataframe or series, Pandas will automatically combined them back into a big dataframe.
+Moreover, you can apply a user-defined-groupby-function that return *anything*. If you return dataframe or series, Pandas will automatically combined them back into a big dataframe. For example, we summarize the basic statistics of every group using method 'describe()', then pandas will combine them back into a single big dataframe:
 
 ```python
 gb.apply(lambda x: x[['color']].describe())
@@ -251,4 +299,4 @@ you get:
 </div>
 
 ---
-There're more gotchas you will run into, I only touched a few that is most important in my opinion. I recommend this document [Caveats and Gotchas](http://pandas.pydata.org/pandas-docs/stable/gotchas.html), hoping it will help you along the road while learning Pandas.
+There're more gotchas you will run into, I only touched a few that are most important in my opinion. I recommend this document [Caveats and Gotchas](http://pandas.pydata.org/pandas-docs/stable/gotchas.html), hoping it will help you along the road while learning Pandas.
