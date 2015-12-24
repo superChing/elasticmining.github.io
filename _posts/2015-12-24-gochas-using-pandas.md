@@ -9,9 +9,10 @@ image:
 feature:
 credit:
 creditlink:
-date: 2015-12-23T00:00:00+00:00
+date: 2015-12-24T00:00:00+00:00
 author: superching
 ---
+
 <head>
 <style>
 table, th, td {
@@ -36,6 +37,7 @@ df['column1']=series
 df
 ```
 you would instead get `NaN` in your new column:
+
 <table border="1">
   <thead>
     <tr style="text-align: right;">
@@ -54,6 +56,7 @@ you would instead get `NaN` in your new column:
     </tr>
   </tbody>
 </table>
+
 <br>If you were Numpy user or Spark dataframe user, it may surprise you. Because **the operations in Pandas are index-aware**:  
 ![index-aware](/img/blog/wayne/pandas_index_aware.png)  
 Operations, e.g. assign, add, compare, to name a few aware indices of operands. That occasionally would make you mad if what you want is Numpy style operation. The example is somewhat contrived since I make the index different first, but in reality it's common that after data being wrangled the index is disordered.
@@ -63,6 +66,7 @@ If you want to ignore index the right way to go is to turn it into a Numpy ndarr
 ```python
 df['column1']=series.values
 ```
+
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -80,7 +84,9 @@ df['column1']=series.values
       <td>2</td>
     </tr>
   </tbody>
-</table><br>Pandas called this index-aware behavior *Automatic Data Alignment*; I see it just an implicit auto index join. Pandas put much effort in index, there's even *multi-index* dataframe for advanced users. When you're coding pandas, you must bear this in minds — *pandas is index-aware*.
+</table><br>
+
+Pandas called this index-aware behavior *Automatic Data Alignment*; I see it just an implicit auto index join. Pandas put much effort in index, there's even *multi-index* dataframe for advanced users. When you're coding pandas, you must bear this in minds — *pandas is index-aware*.
 
 ### gotcha 2
 What would you do if you wanna detect missing values?
@@ -109,7 +115,9 @@ you get:
     </tr>
   </tbody>
 </table>
-</div><br>If you come from SQL, you could have assumed that the result is `NaN`, because that's what SQL's `NULL` would do (return NULL). In fact, missing value comparison in Pandas, i.e. comparing anything to `NaN`, would result in a `False`. And the right way to compare NaN is `isnull()` method:  
+</div><br>
+
+If you come from SQL, you could have assumed that the result is `NaN`, because that's what SQL's `NULL` would do (return NULL). In fact, missing value comparison in Pandas, i.e. comparing anything to `NaN`, would result in a `False`. And the right way to compare NaN is `isnull()` method:  
 
 ```python  
 df=pd.DataFrame({'column1':[1,np.nan]})   
@@ -143,6 +151,8 @@ df=pd.DataFrame({'column1':[1,0,np.nan]})  # 0,1 valued column with missing valu
 df=df.astype(bool)
 df
 ```
+
+
 you get unexpected results:
 <div>
 <table border="1" class="dataframe">
@@ -257,16 +267,22 @@ gb=df.groupby('animal')
 for k,v in gb['weight']:
     print('weight of all {}s = {}'.format(k,v.sum()))
 ```
+
+
 you get:
 
 > weight of all cats = 5
 > weight of all dogs = 2
 
+
 Moreover, you can apply a user-defined-groupby-function that return *anything*. If you return dataframe or series, Pandas will automatically combined them back into a big dataframe. For example, we summarize the basic statistics of every group using method 'describe()', then pandas will combine them back into a single big dataframe:
+
 
 ```python
 gb.apply(lambda x: x[['color']].describe())
 ```
+
+Screen Shot 2015-12-24 at 00.43.15
 you get:
 <table border="1" class="dataframe">
   <thead>
