@@ -10,6 +10,7 @@ page_ext: html
 # Site settings
 title: ElasticMining
 slogan: Better. Faster. Stronger.
+locale: UTF-8
 email: support@elasticmining.com
 description: "Experts for data mining, data analysis and machine learning. Help you stay on top of the game with advanced technology."
 disqus-shortname: elasticmining
