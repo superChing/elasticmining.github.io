@@ -81,9 +81,6 @@ fc(constant) //as like f(1,10,constant)
 fc(pow) //f(1,10,pow)
 ```
 
-Here we use “_” to replace g:Int=>Int. Type of *fc* is ((Int) => Int) => Int, we can think *fc*’s parameter as a type of (Int)=> Int, the function of output Int. The benefit is decreasing repeat of codes.
-
-
 >Note
 The line val fc=f(1,10,_) would fail. you need to specify type of `_`, because compiler can not recognize it.
 
