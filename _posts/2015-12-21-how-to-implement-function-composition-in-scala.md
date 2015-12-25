@@ -32,7 +32,7 @@ a and b are variables,  g(x) is a function,  so *f(a,b,g(x))* is a function comp
 *I=>O* means a function that I as a type of parameter and O as a type of output in Scala, like
 
 ```scala
-val f1:Double=>Double=x=>Math.pow(x) //f1(x)=x^2
+val f1:Double=>Double=x=>Math.pow(x,2) //f1(x)=x^2
 val f2:(Double,Double)=>Double=(x,y)=>Math.pow(x,2)+Math.pow(y,2) //f2(x)=x^2+y^2
 ```
 
