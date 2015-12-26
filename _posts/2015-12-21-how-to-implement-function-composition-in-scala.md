@@ -32,8 +32,12 @@ a and b are variables,  g(x) is a function,  so *f(a,b,g(x))* is a function comp
 *I=>O* means a function that I as a type of parameter and O as a type of output in Scala, like
 
 ```scala
-val f1:Double=>Double=x=>Math.pow(x,2) //f1(x)=x^2
-val f2:(Double,Double)=>Double=(x,y)=>Math.pow(x,2)+Math.pow(y,2) //f2(x)=x^2+y^2
+val f1:Double=>Double=
+		x=>Math.pow(x,2) 
+		//f1(x)=x^2. e.g. f1(2)=4 
+val f2:(Double,Double)=>Double=
+		(x,y)=>Math.pow(x,2)+Math.pow(y,2) 
+		//f2(x)=x^2+y^2 e.g. f2(2,3)=13
 ```
 
 x and y can be replaced by any identifier you define.
@@ -72,7 +76,7 @@ val fc: ((Int) => Int) => Int= f(1,10,_)
 val fc=f(1,10,_:Int => Int)
 ```
 
-Here we use “_” to replace g:Int=>Int. Type of *fc* is ((Int) => Int) => Int, we can think *fc*’s parameter as a type of (Int)=> Int, the function of output Int. The benefit is decreasing repeat of codes.
+Here we use “_” to represent  g:Int=>Int. Type of *fc* is ((Int) => Int) => Int, we can think *fc*’s parameter as a type of (Int)=> Int, the function of output Int. The benefit is decreasing repeat of codes.
 
 
 ```scala
@@ -88,6 +92,8 @@ The line val fc=f(1,10,_) would fail. you need to specify type of `_`, because c
 Now we know how to define a function in Scala, and practice summation function. Then we use amazing _ in Scala to implement mathematical function composition.
 Hope they are useful for you.
 
+### Refrerences
+[Scala Partially Applied Functions](http://www.tutorialspoint.com/scala/partially_applied_functions.htm)
 
 
 
