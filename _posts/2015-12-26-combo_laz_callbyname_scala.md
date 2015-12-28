@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Combo lazy and call-by-name into lazier Scala
+title: Combine lazy and call-by-name into lazier Scala
 categories: scala
-description: Combo lazy value and call-by-name you would get lazier value to solve a cyclic reference problem.
+description: Combining lazy value and call-by-name you would get lazier value to solve a cyclic reference problem.
 comments: true
 tags: [scala, functional programming]
 image:
@@ -13,7 +13,7 @@ date: 2015-12-28T00:00:00+00:00
 author: superching
 ---
 
-#  Combo lazy and call-by-name into lazier Scala
+#  Combine lazy and call-by-name into lazier Scala
 Here it is a puzzle : A parent owns a child which owns that parent. How to get the *cyclic reference* in *immutable* way?  
 Before answering it, we see how easy to program it in mutable way:
 
