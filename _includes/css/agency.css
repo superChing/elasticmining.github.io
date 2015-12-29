@@ -105,7 +105,7 @@ article.post {
 
 img {
     max-width:100%;
-    max-height:100%; 
+    max-height:100%;
 }
 
 
@@ -308,11 +308,11 @@ fieldset[disabled] .btn-xl.active {
     .navbar-default .navbar-collapse {
         border-color: #{{ site.color.primary }};
         background-color: transparent;
-    }    
+    }
 
     .navbar-default .nav li a {
         color: #fff;
-    }    
+    }
 
     .navbar-default .navbar-brand {
         font-size: 2em;
@@ -336,7 +336,7 @@ fieldset[disabled] .btn-xl.active {
         font-size: 1.5em;
         color: #000;
         opacity: 1.0;
-    } 
+    }
 
     .navbar-default.navbar-shrink .nav li a{
         color: #000;
@@ -355,7 +355,7 @@ fieldset[disabled] .btn-xl.active {
     .navbar-default.navbar-shrink .navbar-nav>.active>a:hover,
     .navbar-default.navbar-shrink .navbar-nav>.active>a:focus {
         color: #fff;
-    }  
+    }
 }
 
 header {
@@ -369,7 +369,9 @@ header {
     background-size: cover;
     -o-background-size: cover;
 }
-
+header span{
+    background-color: rgba(0, 0, 0, 0);
+}
 header .intro-text {
     padding-top: 90px;
     padding-bottom: 50px;
@@ -395,7 +397,7 @@ header .intro-text .intro-heading {
 
 header .intro-text .intro-lead-in.page {
     font-size: 1.6rem;
-}  
+}
 header .intro-text .intro-heading.page {
     font-size: 3.2rem;
 }
@@ -422,7 +424,7 @@ header.intro-header {
     header .page.intro-text {
         padding-top: 80px;
         padding-bottom: 80px;
-    }    
+    }
 
     header .intro-text .intro-lead-in {
         margin-bottom: 25px;
@@ -443,12 +445,12 @@ header.intro-header {
 
     header .intro-text .intro-lead-in.page {
         font-size: 2.8rem;
-    }  
+    }
     header .intro-text .intro-heading.page {
-        margin-bottom: 0px;  
-        margin-top: 35px;      
+        margin-bottom: 0px;
+        margin-top: 35px;
         font-size: 6.5rem;
-    }    
+    }
 }
 
 section {
