@@ -370,7 +370,7 @@ header {
     -o-background-size: cover;
 }
 header span{
-    background-color: rgba(0, 0, 0, 0);
+    background-color: rgba(17, 17, 17, .9);
 }
 header .intro-text {
     padding-top: 90px;
