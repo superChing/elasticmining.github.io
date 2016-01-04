@@ -2,7 +2,7 @@
 layout: post
 title: Kaplan-Meier Curve in Python
 categories: python
-description: "Kaplan-Meier curve is one of the best survival analysis to display your target population living for a certain amount of time after treatment, especially in clinical trials."
+description: "Why do deaths occur now versus later over time? The Kaplan-Meier curve is a practical method of displaying survival data. In this article, we make these curves and try to figure out the survival experience within groups in python."
 comments: true
 tags: [python, survival analysis, biostatistics]
 image:

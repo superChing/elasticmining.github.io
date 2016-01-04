@@ -2,7 +2,7 @@
 layout: post
 title: Time Series forecasting - taking Kaggle Rossmann challenge as example
 categories: machine learning
-description: In this post, I share some tips about time series forecasting.
+description: In this post, I share some tips specific to time-series forecasting and the experience using those tips in Rossmann-store-sales dataset. Though they are something pieces-and-bits, without them could not your gorgeous machine learning algorithm unleash the true power.
 comments: true
 tags: [machine learning, kaggle]
 image:
