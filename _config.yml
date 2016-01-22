@@ -1,6 +1,7 @@
 url: http://www.elasticmining.com
 baseurl: 
 header-img: img/banner2.jpg
+logo-img: img/logos/logo.png
 
 # Octopress
 # Default extension for new posts and pages
