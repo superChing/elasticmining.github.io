@@ -396,6 +396,13 @@ header .intro-text .intro-heading {
     line-height: 50px;
 }
 
+header .intro-text .intro-logo {
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+}
+
+
 header .intro-text .intro-lead-in.page {
     font-size: 1.6rem;
 }
