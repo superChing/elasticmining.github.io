@@ -13,9 +13,6 @@ date: 2016-02-13T00:00:00+00:00
 author: mayyang
 ---
 
-
-#Analytics Plan: Question-driven or Data-driven?
-
 **Data-Driven** is a HOT term recently. Your competitors feature themselves as data-driven organizations; they claim that they make data-driven decisions because all their departments are data-driven... data-driven marketing, data-driven sales, data-driven engineering and so on. It’s terrifying, but it’s the fashion! Now you think of being a data-driven organization too because everyone else is labeled with that. So you quickly extract all kinds of data you can find, from internal and external sources, and think to find something meaningful by analyzing them right away. 
 
 Hey, wait a minute, are you sure you know what you are doing? Analyzing data it’s like swimming in a pool,  are you sure you know how to swim, which direction to go, and where the destination is?
