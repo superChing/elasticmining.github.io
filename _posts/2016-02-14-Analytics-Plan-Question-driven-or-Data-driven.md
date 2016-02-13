@@ -1,10 +1,10 @@
 ---
 layout: post
-title: Analytics Plan: Question-driven or Data-driven?
-categories: Strategic Plan
+title: "Analytics Plan: Question-driven or Data-driven?"
+categories: "Strategic Plan"
 description: "Formulate questions that are related to your business objective is ultimate key of a success analytics plan. No one likes to waste time and money doing something meaningless or not aligned to the objective of your business or organization. "
 comments: true
-tags: [Data science, data plan]
+tags: ["Data science", "data plan"]
 image:
   feature:
   credit: 
