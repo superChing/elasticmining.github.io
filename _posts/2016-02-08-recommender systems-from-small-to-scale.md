@@ -17,7 +17,7 @@ author: chuyuhsu
 
 > “The Age of Search has come to an end. Long live the recommendation!”
 > 
-> Jeffrey M. O’Brien, CNN Money
+> -- Jeffrey M. O’Brien, CNN Money
 
 
 

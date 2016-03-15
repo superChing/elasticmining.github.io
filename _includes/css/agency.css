@@ -52,6 +52,10 @@ body {
     width:100%;
 }
 
+.footnotes {
+    overflow-y: auto;
+}
+
 p {
     font-size: 1.4rem;
     line-height: 1.75;
