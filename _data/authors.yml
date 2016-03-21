@@ -53,22 +53,22 @@ bryanyang:
       url: https://twitter.com/Bryanyang0528
 
 
-chuyuhsu:
-  name: Chu-Yu Hsu
-  display_name: Chu-Yu
-  description: Chu-Yu is the Big Data jack-of-all-trades. His recent projects includes IR systems, Large-scale Named Entity Recognition, Knowledge Recommendation System, and Adaptive Strategy Planing Optimizaton with Multi-armed Bandit Machine.<br><br>Chu-Yu is an AI enthusiast who always poking around the cutting edge techniques.<br><br>
-  email: chuyuhsu@elasticmining.com
-  pic: chuyu
-  position: Machine Learning Engineer
-  gravatar: 
-  alt: Machine Learning Engineer who loves to work with Big data
-  social:
-    - title: linkedin
-      url: https://www.linkedin.com/in/chuyuhsu  
-    - title: github
-      url: https://github.com/ChuyuHsu
-    - title: twitter
-      url: https://twitter.com/ChuyuHsu
+#chuyuhsu:
+#  name: Chu-Yu Hsu
+#  display_name: Chu-Yu
+#  description: Chu-Yu is the Big Data jack-of-all-trades. His recent projects includes IR systems, Large-scale Named Entity Recognition, Knowledge Recommendation System, and Adaptive Strategy Planing Optimizaton with Multi-armed Bandit Machine.<br><br>Chu-Yu is an AI enthusiast who always poking around the cutting edge techniques.<br><br>
+#  email: chuyuhsu@elasticmining.com
+#  pic: chuyu
+#  position: Machine Learning Engineer
+#  gravatar: 
+#  alt: Machine Learning Engineer who loves to work with Big data
+#  social:
+#    - title: linkedin
+#      url: https://www.linkedin.com/in/chuyuhsu  
+#    - title: github
+#      url: https://github.com/ChuyuHsu
+#    - title: twitter
+#      url: https://twitter.com/ChuyuHsu
 
 ryanchao:
   name: Ryan Chao
@@ -87,22 +87,6 @@ ryanchao:
     - title: twitter
       url: https://twitter.com/ryanchao2012
 
-larrylo:
-  name: Larry Lo
-  display_name: Larry
-  description: Larry experts in system architecture design, large scale server design and jvm performance tuning.<br><br>Larry aims to help people gain better lives, he participated in projects that either bridges the information gap between media published news and people's comments on forum, or identifies air pollution problem in Taiwan.<br><br>
-  email: larrylo@elasticmining.com
-  pic: larry
-  position: Backend Developer
-  gravatar: 
-  alt: Big Data Backend Developer
-  social:
-    - title: linkedin
-      url: https://www.linkedin.com/in/larry-lo-32364388 
-    - title: github
-      url: http://github.com/LarryLo
-    - title: twitter
-      url: http://twitter.com/LarryLo1025
 
 
 markyang:
@@ -138,3 +122,21 @@ superching:
       url: https://github.com/superching
     - title: twitter
       url: https://twitter.com/theSuperChing
+
+
+larrylo:
+  name: Larry Lo
+  display_name: Larry
+  description: Larry experts in system architecture design, large scale server design and jvm performance tuning.<br><br>Larry aims to help people gain better lives, he participated in projects that either bridges the information gap between media published news and people's comments on forum, or identifies air pollution problem in Taiwan.<br><br>
+  email: larrylo@elasticmining.com
+  pic: larry
+  position: Blog Writer
+  gravatar: 
+  alt: Blog Writer
+  social:
+    - title: linkedin
+      url: https://www.linkedin.com/in/larry-lo-32364388 
+    - title: github
+      url: http://github.com/LarryLo
+    - title: twitter
+      url: http://twitter.com/LarryLo1025
