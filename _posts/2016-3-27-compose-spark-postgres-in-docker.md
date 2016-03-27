@@ -93,5 +93,6 @@ Moreover you can scale your Spark services with `docker-compose scale worker=3` 
 The workable example is on [Github](https://github.com/superChing/Spark_Postgres_Example), checking it out and have fun with more extension as you would like !
 
 #### references:
+
 Official Docker-compose document: https://docs.docker.com/compose
 The spark image is based on : https://github.com/gettyimages/docker-spark  
